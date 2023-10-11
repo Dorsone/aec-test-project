@@ -15,7 +15,7 @@ docker compose up -d
 ```
 
 ## Usage
-1) Run the test with command below:
+1) Run the test with command below in the docker container(for more information about docker container check [docs](https://docs.docker.com/engine/reference/commandline/exec/)):
 ```bash
 php artisan test 
 ```
