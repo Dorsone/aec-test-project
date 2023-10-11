@@ -29,5 +29,5 @@ php artisan app:generate-key
 ## Usage
 1) Run the test with command below in the docker container:
 ```bash
-php artisan test 
+php artisan test --filter=IndexControllerTest
 ```
