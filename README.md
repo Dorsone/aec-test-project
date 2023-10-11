@@ -13,6 +13,10 @@ PHP скрипт, который генерирует JWT токен автор�
 ```bash
 docker compose up -d 
 ```
+3) Geneate app key
+```bash
+php artisan key:generate
+```
 
 ## Usage
 1) Run the test with command below in the docker container(for more information about docker container check [docs](https://docs.docker.com/engine/reference/commandline/exec/)):
