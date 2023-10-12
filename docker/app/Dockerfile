@@ -10,7 +10,6 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
 
 WORKDIR /var/www/aec-test-project
 
-CMD php artisan app:generate-key
 CMD chown -R www-data:www-data /var/www/aec-test-project/storage && php-fpm
 
 EXPOSE 9000
